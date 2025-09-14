@@ -1,5 +1,7 @@
 # RateTheStore Backend
 
+<img width="300" height="300" alt="Image" src="https://github.com/user-attachments/assets/a86f0f8e-5014-4b8b-8540-dbd61c2b043d" />
+
 This folder contains the **Express.js backend** for the RateTheStore platform.
 
 ---
@@ -20,3 +22,4 @@ This folder contains the **Express.js backend** for the RateTheStore platform.
 - **Environment variables** for configuration and secrets  
 
 ---
+
