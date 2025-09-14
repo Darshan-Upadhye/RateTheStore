@@ -49,3 +49,11 @@ RateTheStore/
 ## Live URLs
 
 - **TRY IT LIVE**: (https://rate-the-store.vercel.app/)
+
+## Screeshots of Websites
+
+<img width="1919" height="1086" alt="Image" src="https://github.com/user-attachments/assets/afcdf442-7a40-4f85-a710-037bd78d059f" />
+
+<img width="1919" height="1088" alt="Image" src="https://github.com/user-attachments/assets/5e813ef8-72d0-41f4-a0ca-992c1c14ee0e" />
+
+<img width="1919" height="1087" alt="Image" src="https://github.com/user-attachments/assets/6b6e4a84-e557-48fb-b3d2-e54452e2af51" />
