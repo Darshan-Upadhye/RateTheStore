@@ -12,7 +12,7 @@ const app = express();
 // ✅ Configure CORS properly
 app.use(
   cors({
-    origin: process.env.CLIENT_URL || "*", // during dev: *, in prod: your Vercel URL
+    origin: process.env.CLIENT_URL || "https://rate-the-store.vercel.app/", 
     credentials: true,
   })
 );
