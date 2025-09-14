@@ -1,6 +1,4 @@
-# RateTheStore
-
-<img width="500" height="500" alt="Image" src="https://github.com/user-attachments/assets/a86f0f8e-5014-4b8b-8540-dbd61c2b043d" />
+<img width="300" height="300" alt="Image" src="https://github.com/user-attachments/assets/a86f0f8e-5014-4b8b-8540-dbd61c2b043d" /> # RateTheStore
 
 RateTheStore is your go-to platform to provide honest and star-based feedback on various stores. Our mission is to empower customers and store owners through transparent reviews and ratings.
 
@@ -41,12 +39,6 @@ Our platform offers a unified login for different types of users, each with tail
 
 ---
 
-## Project Structure
-
-RateTheStore/
-frontend/ # React frontend
-backend/ # Express.js backend
-
 ## Live URLs
 
 - **TRY IT LIVE**: (https://rate-the-store.vercel.app/)
@@ -58,6 +50,7 @@ backend/ # Express.js backend
 <img width="1919" height="1088" alt="Image" src="https://github.com/user-attachments/assets/5e813ef8-72d0-41f4-a0ca-992c1c14ee0e" />
 
 <img width="1919" height="1087" alt="Image" src="https://github.com/user-attachments/assets/6b6e4a84-e557-48fb-b3d2-e54452e2af51" />
+
 
 
 
