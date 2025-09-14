@@ -44,9 +44,8 @@ Our platform offers a unified login for different types of users, each with tail
 ## Project Structure
 
 RateTheStore/
-├── frontend/ # React frontend
-├── backend/ # Express.js backend
-└── README.md # Main project overview
+frontend/ # React frontend
+backend/ # Express.js backend
 
 ## Live URLs
 
@@ -59,5 +58,6 @@ RateTheStore/
 <img width="1919" height="1088" alt="Image" src="https://github.com/user-attachments/assets/5e813ef8-72d0-41f4-a0ca-992c1c14ee0e" />
 
 <img width="1919" height="1087" alt="Image" src="https://github.com/user-attachments/assets/6b6e4a84-e557-48fb-b3d2-e54452e2af51" />
+
 
 
