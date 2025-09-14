@@ -9,7 +9,6 @@ const ratingRoutes = require("./routes/ratings");
 
 const app = express();
 
-// ✅ Configure CORS properly
 app.use(
   cors({
     origin: process.env.CLIENT_URL || "https://rate-the-store.vercel.app/", 
