@@ -12,38 +12,38 @@ RateTheStore is your go-to platform to provide honest and star-based feedback on
 
 ---
 
-## Platform Overview
+## 🌟 Platform Overview
 
-Our platform offers a unified login for different types of users, each with tailored access and features:
+Our platform offers a **unified login** for different types of users, each with tailored access and features:
 
-- **System Administrator**: Oversees users and store management with insightful analytics.  
-- **Normal User**: Can register, sign in, browse stores, and submit or update ratings.  
-- **Store Owner**: Can manage their store profile and monitor received ratings and feedback.
-
----
-
-## Core Features
-
-- Admin can add or update user and store information with role-specific privileges.  
-- Users can effortlessly rate stores with validation safeguards ensuring data quality.  
-- Role-based access control guarantees a customized user experience.
+- 👑 **System Administrator**: Oversees users and store management with insightful analytics.  
+- 🧑‍💻 **Normal User**: Can register, sign in, browse stores, and submit or update ratings.  
+- 🏪 **Store Owner**: Can manage their store profile and monitor received ratings and feedback.
 
 ---
 
-## Input Validation Highlights
+## 🚀 Core Features
 
-- Name: 20-60 characters  
-- Address: Up to 400 characters  
-- Password: 8-16 characters, must include at least one uppercase letter and one special symbol  
-- Email: Must follow standard formatting rules
+- 📝 Admin can **add or update user and store information** with role-specific privileges.  
+- ⭐ Users can effortlessly **rate stores** with validation safeguards ensuring data quality.  
+- 🔒 **Role-based access control** guarantees a customized user experience.
 
 ---
 
-## Tech Stack & Hosting
+## 📏 Input Validation Highlights
+
+- **Name**: 20–60 characters  
+- **Address**: Up to 400 characters  
+- **Password**: 8–16 characters, must include **at least one uppercase letter** and **one special symbol**  
+- **Email**: Must follow standard formatting rules
+
+---
+
+## 🛠 Tech Stack & Hosting
 
 - **Frontend**: React.js, hosted on **Vercel**  
 - **Backend**: Express.js, hosted on **Render**  
-- **Database**: PostgreSQL (Render hosting)  
+- **Database**: PostgreSQL (**Render hosting**)  
 
 ---
 
@@ -84,3 +84,4 @@ Our platform offers a unified login for different types of users, each with tail
 <img width="1919" height="1088" alt="Image" src="https://github.com/user-attachments/assets/f63a1f87-861c-4e50-af5a-ee92904abf75" />
 
 <img width="1919" height="1085" alt="Image" src="https://github.com/user-attachments/assets/32d092ac-7bc7-4f25-9127-eed6a0765a91" />
+
