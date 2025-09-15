@@ -2,7 +2,6 @@ const express = require("express");
 const router = express.Router();
 const pool = require("../db");
 
-// Submit or update rating
 router.post("/", async (req, res) => {
   const { user_id, store_id, rating } = req.body;
   try {
@@ -22,7 +21,6 @@ router.post("/", async (req, res) => {
   }
 });
 
-// Get ratings by store
 router.get("/:store_id", async (req, res) => {
   const { store_id } = req.params;
   try {
