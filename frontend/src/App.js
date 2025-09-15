@@ -74,7 +74,6 @@ function useTableSort(defaultKey) {
   return { sortKey, sortOrder, handleSort, getSortIcon };
 }
 
-// Mock API helper that simulates success for password update and rating update
 async function apiFetch(url, options = {}) {
   if (url.includes("/password")) {
     return new Promise((resolve) => setTimeout(() => resolve({ success: true }), 500));
@@ -252,7 +251,6 @@ function Dashboard() {
     setAddStoreForm((prev) => ({ ...prev, [name]: value }));
   };
 
-  // No redirect after store add, just popup shown
   const handleAddStoreSubmit = async (e) => {
     e.preventDefault();
     if (addStoreForm.name.trim().length < 3) {
@@ -275,7 +273,6 @@ function Dashboard() {
       setStores((prev) => [...prev, newStore]);
       setAddStoreForm({ name: "", email: "", address: "" });
       setStoreAddSuccessPopupVisible(true);
-      // No redirect or auto login here
     } catch (error) {
       alert("Failed to add store: " + error.message);
     }
@@ -413,9 +410,6 @@ function Dashboard() {
       : true
   );
   
-  // --- Render functions ---
-
-  // System Admin Dashboard
   function renderSystemAdminDashboard() {
     const totalUsers = users.length;
     const totalStores = stores.length;
@@ -442,7 +436,6 @@ function Dashboard() {
     );
   }
 
-  // Add User Form
   function renderAddUserForm() {
     return (
       <form className="add-user-form animated-form" onSubmit={handleAddUserSubmit}>
@@ -517,7 +510,6 @@ function Dashboard() {
     );
   }
 
-  // Users List
   function renderUsersList() {
     let filteredUsers = applyUserFilters(users);
     filteredUsers = sortList(filteredUsers, usersSort.sortKey, usersSort.sortOrder, (u) => {
@@ -611,7 +603,6 @@ function Dashboard() {
     );
   }
 
-  // Add Store Form
   function renderAddStoreForm() {
     return (
       <form className="add-store-form animated-form" onSubmit={handleAddStoreSubmit}>
@@ -663,7 +654,6 @@ function Dashboard() {
     );
   }
 
-  // Stores List for Admin
   function renderStoresListForAdmin() {
     let filteredStores = applyStoreFilters(stores);
     filteredStores = sortList(filteredStores, storesSort.sortKey, storesSort.sortOrder, s => {
@@ -746,7 +736,6 @@ function Dashboard() {
     );
   }
 
-  // Normal User Dashboard
   function renderNormalUserDashboard() {
     const sortedStores = sortList(filteredDashboardStores, dashboardStoreSort.sortKey, dashboardStoreSort.sortOrder, s => {
       switch (dashboardStoreSort.sortKey) {
@@ -866,7 +855,6 @@ function Dashboard() {
     );
   }
 
-  // Normal User Profile
   function renderNormalUserProfile() {
     return (
       <section className="profile-section animated-section">
@@ -920,9 +908,8 @@ function Dashboard() {
     );
   }
 
-  // Store Owner Dashboard
   function renderStoreOwnerDashboard() {
-    // Find the store owned by this user by matching owner email === user email
+    
     const ownerStore = stores.find((store) => store.ownerEmail === user.email);
 
     if (!ownerStore) {
@@ -1038,7 +1025,6 @@ function Dashboard() {
     );
   }
 
-  // Render Users Section based on role
   function renderUsersSection() {
     if (!user) {
       return (
@@ -1082,7 +1068,6 @@ function Dashboard() {
     return null;
   }
 
-  // Render Stores Section by role
   function renderStoresSection() {
     if (!user) {
       return (
@@ -1189,7 +1174,6 @@ function Dashboard() {
 
   const [activeMenu, setActiveMenu] = useState("Dashboard");
 
-  // Main render
   return (
     <div className="app">
       <aside className="sidebar" role="navigation" aria-label="Main navigation sidebar">
