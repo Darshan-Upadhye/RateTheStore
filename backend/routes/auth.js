@@ -4,7 +4,6 @@ const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
 const pool = require("../db");
 
-// SIGNUP
 router.post("/signup", async (req, res) => {
   const { name, email, password, address, role } = req.body;
   try {
@@ -24,7 +23,6 @@ router.post("/signup", async (req, res) => {
   }
 });
 
-// LOGIN
 router.post("/login", async (req, res) => {
   const { email, password } = req.body;
   try {
