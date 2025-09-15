@@ -51,10 +51,13 @@ Our platform offers a unified login for different types of users, each with tail
 
 <img width="1919" height="1088" alt="Image" src="https://github.com/user-attachments/assets/5e813ef8-72d0-41f4-a0ca-992c1c14ee0e" />
 
+<img width="1919" height="1090" alt="Image" src="https://github.com/user-attachments/assets/d55bb365-8b87-4c12-b71d-ee968562e9ed" />
+
 <img width="1919" height="1087" alt="Image" src="https://github.com/user-attachments/assets/6b6e4a84-e557-48fb-b3d2-e54452e2af51" />
 
 <img width="1919" height="1091" alt="Image" src="https://github.com/user-attachments/assets/1defecfb-283f-4db9-9ec2-7c02a006ac7c" />
 
+<img width="1919" height="1085" alt="Image" src="https://github.com/user-attachments/assets/770742d0-1255-4a39-8642-1b5001aee243" />
 
-
+<img width="1919" height="1090" alt="Image" src="https://github.com/user-attachments/assets/403db5e4-8018-44c3-a062-ce919c7c01d0" />
 
