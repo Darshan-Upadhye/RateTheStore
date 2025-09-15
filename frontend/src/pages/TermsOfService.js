@@ -1,4 +1,3 @@
-// src/Pages/TermsOfService.js
 import React from "react";
 import "./TermsOfService.css";
 
