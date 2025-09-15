@@ -6,6 +6,12 @@ RateTheStore is your go-to platform to provide honest and star-based feedback on
 
 ---
 
+## Live Demo
+
+[🚀 Try RateTheStore Live!](https://rate-the-store.vercel.app/)
+
+---
+
 ## Platform Overview
 
 Our platform offers a unified login for different types of users, each with tailored access and features:
@@ -41,10 +47,6 @@ Our platform offers a unified login for different types of users, each with tail
 
 ---
 
-## Live URLs
-
-- **TRY IT LIVE**: (https://rate-the-store.vercel.app/)
-
 ## Screeshots of Websites
 
 <img width="1919" height="1086" alt="Image" src="https://github.com/user-attachments/assets/afcdf442-7a40-4f85-a710-037bd78d059f" />
@@ -69,4 +71,16 @@ Our platform offers a unified login for different types of users, each with tail
 
 <img width="1919" height="1090" alt="Image" src="https://github.com/user-attachments/assets/403db5e4-8018-44c3-a062-ce919c7c01d0" />
 
+<img width="1919" height="1086" alt="Image" src="https://github.com/user-attachments/assets/8c956776-7341-494c-a74c-538642a9dc10" />
 
+<img width="1919" height="1089" alt="Image" src="https://github.com/user-attachments/assets/00735cf7-2b98-43d4-8426-ad185670d0e2" />
+
+<img width="1919" height="1088" alt="Image" src="https://github.com/user-attachments/assets/3e0e6d84-569d-4151-bb17-779f7689456d" />
+
+<img width="1919" height="1084" alt="Image" src="https://github.com/user-attachments/assets/40c0f5ab-161c-42ef-8b66-67e99cb6f6b2" />
+
+<img width="1919" height="1090" alt="Image" src="https://github.com/user-attachments/assets/3a0625c7-47b8-496b-a1f2-2495acf4128c" />
+
+<img width="1919" height="1088" alt="Image" src="https://github.com/user-attachments/assets/f63a1f87-861c-4e50-af5a-ee92904abf75" />
+
+<img width="1919" height="1085" alt="Image" src="https://github.com/user-attachments/assets/32d092ac-7bc7-4f25-9127-eed6a0765a91" />
