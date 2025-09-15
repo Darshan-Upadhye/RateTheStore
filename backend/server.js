@@ -10,7 +10,7 @@ const ratingRoutes = require("./routes/ratings");
 const app = express();
 
 app.use(cors({
-  origin: ["https://rate-the-store.vercel.app/"],
+  origin: ["https://rate-the-store.vercel.app"],
   methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true
 }));
