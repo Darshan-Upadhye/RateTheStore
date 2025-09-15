@@ -28,11 +28,13 @@ function SignupPage() {
 
   const handleSignup = async (values, { setSubmitting, setErrors }) => {
     try {
-      const res = await fetch("https://ratethestore.onrender.com/api/auth/signup", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(values),
-      });
+      const res = await fetch(`${API_BASE_URL}/api/auth/login`, {
+  method: "POST",
+  headers: { "Content-Type": "application/json" },
+  body: JSON.stringify(values),
+});
+
+const data = await res.json();
 
       const data = await res.json();
       if (!res.ok) throw new Error(data.error || "Signup failed");
