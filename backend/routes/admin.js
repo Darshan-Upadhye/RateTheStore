@@ -3,11 +3,9 @@ const router = express.Router();
 const pool = require("../db");
 const { verifyToken, isAdmin } = require("../middleware/auth");
 
-// Middleware: verify token & admin role
 router.use(verifyToken);
 router.use(isAdmin);
 
-// Route 1: Get all users
 router.get("/users", async (req, res) => {
   try {
     const result = await pool.query("SELECT id, name, email, role FROM users");
@@ -18,7 +16,6 @@ router.get("/users", async (req, res) => {
   }
 });
 
-// Route 2: Get all stores
 router.get("/stores", async (req, res) => {
   try {
     const result = await pool.query("SELECT * FROM stores");
@@ -29,7 +26,6 @@ router.get("/stores", async (req, res) => {
   }
 });
 
-// Route 3: Add new user
 router.post("/users", async (req, res) => {
   const { name, email, password, role } = req.body;
   try {
@@ -44,7 +40,6 @@ router.post("/users", async (req, res) => {
   }
 });
 
-// Route 4: Add new store
 router.post("/stores", async (req, res) => {
   const { name, location, owner_id } = req.body;
   try {
@@ -59,7 +54,6 @@ router.post("/stores", async (req, res) => {
   }
 });
 
-// Route 5: Delete a user
 router.delete("/users/:id", async (req, res) => {
   const { id } = req.params;
   try {
@@ -71,7 +65,6 @@ router.delete("/users/:id", async (req, res) => {
   }
 });
 
-// Route 6: Delete a store
 router.delete("/stores/:id", async (req, res) => {
   const { id } = req.params;
   try {
