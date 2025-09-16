@@ -504,7 +504,7 @@ function Dashboard() {
           onClose={() => setUserAddSuccessPopupVisible(false)}
           title="New User Added Successfully"
           description="New user has been added successfully."
-          imgSrc="/done.svg"
+          imgSrc="/Done.svg"
         />
       </form>
     );
@@ -648,7 +648,7 @@ function Dashboard() {
           onClose={() => setStoreAddSuccessPopupVisible(false)}
           title="New Store Added Successfully"
           description="New store has been added successfully."
-          imgSrc="/done.svg"
+          imgSrc="/Done.svg"
         />
       </form>
     );
@@ -849,7 +849,7 @@ function Dashboard() {
           onClose={() => setThankYouPopupVisible(false)}
           title="Thank You for Rating"
           description="We review your rating and we improve what we need."
-          imgSrc="/done.svg"
+          imgSrc="/Done.svg"
         />
       </section>
     );
@@ -901,7 +901,7 @@ function Dashboard() {
             onClose={() => setPasswordPopupVisible(false)}
             title="Password Updated"
             description="Your password has been successfully updated."
-            imgSrc="/done.svg"
+            imgSrc="/Done.svg"
           />
         </div>
       </section>
@@ -1019,7 +1019,7 @@ function Dashboard() {
           onClose={() => setPasswordPopupVisible(false)}
           title="Password Updated"
           description="Your password has been successfully updated."
-          imgSrc="/done.svg"
+          imgSrc="/Done.svg"
         />
       </section>
     );
